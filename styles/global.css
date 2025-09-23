@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*cores Principal*/
+    --brand-primary-red: #E3646E;
+    --brand-primary-purple: #bb72e9;
+    --brand-primary-blue: #3996db;
+    --brand-primary-green: #82BC4F;
+    --brand-primary-yellow: #EABD5F;
+
+    /*Cores Base*/
+    --brand-base-gray-100: #E2E4E9;
+    --brand-base-gray-200: #C0C4CE;
+    --brand-base-gray-300: #878EA1;
+    --brand-base-gray-400: #292c34;
+    --brand-base-gray-500: #16181D;
+    --brand-base-gray-600: #0D0E11;
+
+    /*Tipografia do Projeto*/
+    --font-asap: "Asap", sans-serif;
+    --title-lg: 700 56px/120% var(--font-asap);
+    --title-md: 700 24px/120% var(--font-asap);
+    --title-sm: 700 16px/120% var(--font-asap);
+    
+    --font-inconsolata: "Inconsolata", monospace;
+    --subtitle: 400 20px/120% var(--font-inconsolata);
+
+    --font-maven: "Maven Pro", sans-serif;
+    --text-md: 400 16px/140% var(--font-maven);
+    --text-sm: 400 14px/140% var(--font-maven);    
+
+}
