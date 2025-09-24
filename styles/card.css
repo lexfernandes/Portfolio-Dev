@@ -14,8 +14,7 @@
     border-radius: 8px;
     margin-bottom: 20px;
   }
-
-  h3 {
+  f h3 {
     font: var(--title-sm);
     color: var(--brand-base-gray-100);
     margin-bottom: 8px;

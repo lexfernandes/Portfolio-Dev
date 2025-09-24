@@ -1,0 +1,57 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 20px;
+  width: 400px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font: var(--text-md);
+
+  /* cores definidas por variáveis */
+  background-color: var(--btn-bg, var(--brand-base-gray-400));
+  color: var(--btn-color, var(--brand-base-gray-200));
+}
+
+/* conteúdo esquerdo (ícone + texto) */
+.btn-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Hover universal */
+.btn:hover {
+  outline: 2px solid var(--btn-hover-color, var(--brand-primary-blue));
+  outline-offset: 0;
+  color: var(--btn-hover-color, var(--brand-primary-blue));
+}
+
+.btn:hover i {
+  color: var(--btn-hover-color, var(--brand-primary-blue));
+}
+
+/* Ícones */
+.btn i {
+  font: var(--text-md);
+  line-height: 1;
+}
+
+/* Ícone principal (logo da rede) */
+.btn .btn-logo {
+  font-size: 28px;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ícone secundário (arrow) */
+.btn .btn-arrow {
+  font-size: 20px;
+  color: var(--btn-hover-color, var(--brand-primary-blue));
+}
