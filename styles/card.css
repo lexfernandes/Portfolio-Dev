@@ -5,8 +5,6 @@
   border-radius: 12px;
   background-color: var(--brand-base-gray-400);
   border: 2px solid transparent;
-  transition: all 0.2s ease;
-
   margin: 200px auto;
 
   img {
@@ -29,5 +27,6 @@
 }
 
 #card-default:hover {
-  border: 2px solid var(--brand-base-gray-300);
+  outline: 4px solid var(--brand-base-gray-300);
+  outline-offset: 0px;
 }
