@@ -1,5 +1,5 @@
 .btn {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
@@ -9,6 +9,7 @@
   border-radius: 8px;
   cursor: pointer;
   font: var(--text-md);
+  transition: all 0.2s eases;
 
   /* cores definidas por variáveis */
   background-color: var(--btn-bg, var(--brand-base-gray-400));
@@ -17,7 +18,7 @@
 
 /* conteúdo esquerdo (ícone + texto) */
 .btn-content {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
 }
@@ -45,7 +46,7 @@
   width: 28px;
   height: 28px;
   flex-shrink: 0;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
@@ -54,4 +55,5 @@
 .btn .btn-arrow {
   font-size: 20px;
   color: var(--btn-hover-color, var(--brand-primary-blue));
+  flex-shrink: 0;
 }
