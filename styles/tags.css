@@ -1,0 +1,24 @@
+#tags {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.tag {
+  padding: 8px 16px;
+  font: var(--text-md);
+  background-color: var(--brand-base-gray-400);
+  color: var(--brand-base-gray-200);
+  border-radius: 20px;
+  gap: 8px;
+  display: inline-flex;
+  align-items: center;
+}
+.tag img {
+  width: 24px;
+}
+.caret {
+  margin-top: 94px;
+}
