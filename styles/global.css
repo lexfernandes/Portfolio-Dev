@@ -41,7 +41,37 @@ body {
 }
 .container {
   max-width: 1366px;
-  width: 100%;
   margin: 0 auto;
   padding-inline: 24px;
+}
+
+h1 {
+  font: var(--text-title-lg);
+  color: var(--color-gray-600);
+}
+
+h2 {
+  font: var(--text-subtitle);
+  color: var(--color-gray-500);
+  padding-bottom: 8px;
+}
+
+h3 {
+  font: var(--text-title-md);
+  color: var(--color-gray-600);
+}
+
+h4 {
+  font: var(--text-title-sm);
+  color: var(--color-gray-600);
+}
+
+p {
+  font: var(--text-sm);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-gray-500);
+  font: var(--text-md-stroke);
 }
