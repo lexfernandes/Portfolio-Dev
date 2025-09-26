@@ -1,11 +1,11 @@
-#card-default {
+#card {
   width: 330px;
   height: 280px;
   padding: 12px 12px;
   border-radius: 12px;
   background-color: var(--brand-base-gray-400);
   border: 2px solid transparent;
-  margin: 200px auto;
+  text-align: left;
 
   img {
     object-fit: cover;
@@ -13,11 +13,6 @@
     max-width: 100%;
     border-radius: 8px;
     margin-bottom: 20px;
-  }
-  f h3 {
-    font: var(--title-sm);
-    color: var(--brand-base-gray-100);
-    margin-bottom: 8px;
   }
   p {
     color: var(--brand-base-gray-200);

@@ -57,13 +57,13 @@ h2 {
 }
 
 h3 {
-  font: var(--text-title-md);
-  color: var(--color-gray-600);
+  font: var(--title-md);
+  color: var(--brand-base-gray-100);
 }
 
 h4 {
-  font: var(--text-title-sm);
-  color: var(--color-gray-600);
+  font: var(--title-sm);
+  color: var(--brand-base-gray-100);
 }
 
 p {
@@ -74,4 +74,7 @@ a {
   text-decoration: none;
   color: var(--color-gray-500);
   font: var(--text-md-stroke);
+}
+.red-color {
+  color: var(--brand-primary-red);
 }
