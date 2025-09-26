@@ -1,50 +1,89 @@
 main {
-  background-image: url("../assets/images/Background_Intro.png");
+  background-image: url(../assets/images/Background_Intro.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  height: 750px;
   background-size: contain;
-  width: 100%;
-  min-height: 750px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
-
 .intro {
-  max-width: 1040px;
   padding-top: 120px;
+  max-width: 1040px;
   margin: 0 auto;
 }
 
-.intro-inner {
+.inner-intro-container {
   max-width: 680px;
   margin: 0 auto;
 }
-
-.intro-inner img {
-  margin-bottom: 56px;
-  height: auto;
+.avatar {
+  display: flex;
+  margin: 8px;
+  padding-bottom: 56px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.intro-inner h2 {
-  font: var(--subtitle);
-  padding-bottom: 8px;
-  color: var(--brand-base-gray-200);
+#code-icon {
+  position: absolute;
+  top: 45%;
+  left: 52.5%;
+  max-width: 32px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid var(--brand-primary-red);
+
+  img {
+    width: 87.27px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
 }
 
-.intro-inner h1 {
-  font: var(--title-lg);
+h1 {
   margin-bottom: 20px;
-  color: var(--brand-base-gray-100);
 }
-
-.intro-inner p {
+p {
   font: var(--text-sm);
   color: var(--brand-base-gray-300);
   margin-bottom: 80px;
 }
-
-.intro-inner span {
+h2 > span {
   color: var(--brand-primary-red);
+}
+
+#tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 16px;
+
+  .tag {
+    padding: 8px 16px;
+    font: var(--text-md);
+    background-color: var(--brand-base-gray-400);
+    color: var(--brand-base-gray-200);
+    display: inline-block;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    img {
+      height: 24px;
+    }
+  }
+}
+
+#caret-double-down {
+  margin-top: 94px;
+  img {
+    height: 32px;
+  }
 }
