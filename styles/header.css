@@ -13,6 +13,12 @@ main {
 .inner-intro-container {
   max-width: 680px;
   margin: 0 auto;
+
+  p {
+    font: var(--text-sm);
+    color: var(--brand-base-gray-300);
+    margin-bottom: 80px;
+  }
 }
 .avatar {
   display: flex;
@@ -49,11 +55,7 @@ main {
 h1 {
   margin-bottom: 20px;
 }
-p {
-  font: var(--text-sm);
-  color: var(--brand-base-gray-300);
-  margin-bottom: 80px;
-}
+
 h2 > span {
   color: var(--brand-primary-red);
 }
