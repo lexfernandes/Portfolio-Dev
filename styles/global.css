@@ -78,3 +78,6 @@ a {
 .red-color {
   color: var(--brand-primary-red);
 }
+.purple-color {
+  color: var(--brand-primary-purple);
+}
