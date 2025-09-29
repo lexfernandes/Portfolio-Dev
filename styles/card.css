@@ -39,7 +39,7 @@
 }
 
 #my-services {
-  background-color: var(--color-gray-100);
+  background-color: var(--brand-base-gray-600);
   padding: 88px 24px 120px 24px;
   #services {
     margin-inline: auto;
